@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "CI": "npm run build"
-    "start": "npm run lite",
+    "build": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
     "scss": "node-sass -o CSS/ CSS/"
